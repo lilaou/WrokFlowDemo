@@ -1,3 +1,8 @@
 FlowchartWorkflow/UpgradeLog.htm
 FlowchartWorkflow/bin/
+FlowchartWorkflow/pkg/
+FlowchartWorkflow/pkgobj/
+FlowchartWorkflow/packages/
 FlowchartWorkflow/obj/
+FlowchartWorkflow/Backup/
+FlowchartWorkflow/.vs/FlowchartWorkflow/v14/.suo
