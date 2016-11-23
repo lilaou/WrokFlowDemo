@@ -1,2 +1,0 @@
-obj\Debug\Workflow.g.xaml
-obj\Debug\FlowchartWorkflow.Draft_Approval_Workflow_Workflow_BeforeInitializeComponentHelper.txt
