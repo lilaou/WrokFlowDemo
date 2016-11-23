@@ -63,9 +63,10 @@
   <ItemGroup>
     <Content Include="Content\bootstrap-responsive.css" />
     <Content Include="Content\bootstrap-responsive.min.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Pages\WorkFlowTasks.aspx" />
     <Content Include="Tasks\Elements.xml" />
     <Content Include="Tasks\Schema.xml" />
     <Content Include="Tasks\TasksInstance\Elements.xml" />
@@ -75,6 +76,10 @@
       <OpcRelationship>feature-elementmanifest</OpcRelationship>
       <SubType>Designer</SubType>
     </Content>
+    <None Include="Content\bootstrap-theme.css.map" />
+    <None Include="Content\bootstrap-theme.min.css.map" />
+    <None Include="Content\bootstrap.css.map" />
+    <None Include="Content\bootstrap.min.css.map" />
     <None Include="DraftApprovalWorkflow\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{62485ead-90ad-47a6-ac56-e27e9efa9e74}</SharePointProjectItemId>
     </None>

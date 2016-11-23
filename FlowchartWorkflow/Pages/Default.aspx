@@ -13,8 +13,9 @@
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
 
     <!-- Add your CSS styles to the following file -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type="text/css" href="../Content/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../Content/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="../Content/bootstrap-responsive.min.css">
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
 
     <!-- Add your JavaScript to the following file -->
@@ -38,8 +39,20 @@
     <a class="featured_one" href="/FlowchartWorkflow/lists/Drafts">Drafts</a><br />
     <a href="/FlowchartWorkflow/lists/Manuscripts">Manuscripts</a><br />
     <a class="tweet_avatar" href="/FlowchartWorkflow/Lists/WorkflowTaskList">WorkflowTaskList</a><br />
-    <div class="row tweet">
-        <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly"
-            ID="WorkFlowTasks" Title="loc:full" />
+
+
+    <div class="row">
+        
+            <div class="col-xs-9 col-sm-6">
+                <!--Sidebar content-->
+                <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly"
+                    ID="Drafts" Title="loc:full" />
+            </div>
+            <div class="col-xs-9 col-sm-6">
+                
+                <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly"
+                    ID="WorkFlowTasks" Title="loc:full" />
+            </div>
+        
     </div>
 </asp:Content>

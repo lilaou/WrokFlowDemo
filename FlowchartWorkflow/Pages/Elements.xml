@@ -26,8 +26,30 @@
           </webParts>
         ]]>
       </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="Drafts" WebPartOrder="2">
+        <![CDATA[
+          <webParts>
+           <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+              <metaData>
+                <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart, 
+                             Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, 
+                             PublicKeyToken=71e9bce111e9429c" />
+              </metaData>
+              <data>
+                <properties>
+                  <property name="ListUrl">Lists/Drafts</property>
+                  <property name="IsIncluded">True</property>
+                  <property name="NoDefaultStyle">True</property>
+                  <property name="Title">Drafts</property>
+                  <property name="PageType">PAGE_NORMALVIEW</property>
+                  <property name="Default">False</property>
+                  <property name="ViewContentTypeId">0x</property>
+                </properties>
+              </data>
+            </webPart>
+          </webParts>
+        ]]>
+      </AllUsersWebPart>
     </File>
-
-    <File Path="Pages\WorkFlowTasks.aspx" Url="Pages/WorkFlowTasks.aspx" ReplaceContent="TRUE" />
   </Module>
 </Elements>
