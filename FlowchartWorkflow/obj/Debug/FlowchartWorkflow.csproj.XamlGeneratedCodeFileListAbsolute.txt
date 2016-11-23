@@ -1,0 +1,5 @@
+obj\Debug\_FlowchartWorkflow.g.cs
+obj\Debug\Workflow.g.cs
+obj\Debug\FlowchartWorkflow.Draft_Approval_Workflow_Workflow_BeforeInitializeComponentHelper.cs
+obj\Debug\_AssemblyInfo_b813493e9f0b4c259055c46f3580a6cc.g.cs
+D:\Work\sharepoint2013-workflow-fundamentals\6-sharepoint2013-workflow-fundamentals-m6-exercise-files\After\FlowchartWorkflow\obj\Debug\FlowchartWorkflow.Draft_Approval_Workflow_Workflow_CompiledExpressionRoot.cs
