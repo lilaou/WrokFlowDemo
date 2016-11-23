@@ -13,6 +13,8 @@
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
 
     <!-- Add your CSS styles to the following file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
 
     <!-- Add your JavaScript to the following file -->
@@ -33,7 +35,11 @@
             initializing...
         </p>
     </div>
-    <a href="/FlowchartWorkflow/lists/Drafts">Drafts</a><br />
+    <a class="featured_one" href="/FlowchartWorkflow/lists/Drafts">Drafts</a><br />
     <a href="/FlowchartWorkflow/lists/Manuscripts">Manuscripts</a><br />
-    <a href="/FlowchartWorkflow/lists/Tasks">My tasks</a><br />
+    <a class="tweet_avatar" href="/FlowchartWorkflow/Lists/WorkflowTaskList">WorkflowTaskList</a><br />
+    <div class="row tweet">
+        <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly"
+            ID="WorkFlowTasks" Title="loc:full" />
+    </div>
 </asp:Content>

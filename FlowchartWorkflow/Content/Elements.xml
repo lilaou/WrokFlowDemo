@@ -2,5 +2,9 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Content">
     <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-responsive.css" Url="Content/bootstrap-responsive.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap-responsive.min.css" Url="Content/bootstrap-responsive.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.css" Url="Content/bootstrap.css" ReplaceContent="TRUE" />
+    <File Path="Content\bootstrap.min.css" Url="Content/bootstrap.min.css" ReplaceContent="TRUE" />
   </Module>
 </Elements>
